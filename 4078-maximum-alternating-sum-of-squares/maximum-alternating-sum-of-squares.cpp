@@ -8,7 +8,6 @@ public:
             }
         }
         sort(nums.begin(),nums.end());
-        vector<long long> arr(n);
         int i=0,j=n-1;
         long long sum=0;
 
