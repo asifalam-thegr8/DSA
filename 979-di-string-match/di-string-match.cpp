@@ -14,10 +14,8 @@ public:
                 perm.push_back(high);
                 high--;
             }
-            if(low==high){
-                perm.push_back(high);
-            }
         }
+        perm.push_back(high);
         return perm;   
     }
 };
